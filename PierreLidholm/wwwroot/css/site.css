@@ -1,0 +1,171 @@
+﻿html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    width: 1280px;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+}
+
+.fas {
+    color: black;
+}
+
+.navbar {
+    width: 1280px;
+    height: 100px;
+    margin: auto;
+    background-color: gray;
+}
+
+.collapse {
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#div-info {
+    width: 1280px;
+    display: flex;
+    
+}
+
+.navbar-nav {
+    width: 100%;
+    align-items: center;
+}
+
+#nav-home {
+    margin-left: 30px;
+    margin-right: 1000px;
+}
+
+#nav-user {
+    margin-right: 50px;
+    align-self: flex-end;
+}
+
+#nav-shopping-cart {
+    margin-right: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#categories {
+    display: flex;
+}
+
+    #categories ul {
+        margin: auto;
+    }
+
+        #categories ul li {
+            padding-right: 50px;
+            display: inline;
+        }
+
+            #categories ul li a {
+                color: black;
+            }
+
+    #categories form {
+        margin-left: 560px;
+    }
+
+main {
+    margin: auto;
+}
+
+#header-bg-img {
+    width: 1280px;
+    margin: -200px auto 0 auto;
+    height: 600px;
+    background-image: url(../images/background/clothes.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+    #header-bg-img h5 {
+        padding-top: 350px;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    #header-bg-img p {
+        color: white;
+        font-weight: 700;
+    }
+
+.container h5 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#myForm {
+    width: 400px;
+    margin: auto;
+}
+
+#footer {
+    height: 100px;
+    margin-top: 200px;
+    background-color: gray;
+    width: 1280px;
+    text-align: center;
+}
+
+    #footer div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 250px;
+        height: 100%;
+    }
+
+        #footer div span {
+            display: block;
+        }
+
+.card-group {
+    margin-top: 20px;
+}
+
+.card {
+    width: 21.33rem;
+    display: inline-block;
+}
+
+a.custom-card,
+a.custom-card:hover {
+    color: inherit;
+}
